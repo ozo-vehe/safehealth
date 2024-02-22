@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import doctor from "src/assets/doctor.webp";
+import doctor from "src/assets/doctor.7c2bc96d.png";
 import Image from "next/image";
 
 const LandingPage = () => {
