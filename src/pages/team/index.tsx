@@ -31,7 +31,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. Piyush Agrawal</h4>
+              <h4 className="title">Dr. Margaret Jude</h4>
               <span className="text-secondary">Dentist</span>
             </div>
           </div>
@@ -42,7 +42,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. Rajendra Patel</h4>
+              <h4 className="title">Dr. Amina Babajide</h4>
               <span className="text-secondary">Cardiologist</span>
             </div>
           </div>
@@ -53,7 +53,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. Salman Ajani</h4>
+              <h4 className="title">Dr. Tijani Guidjera</h4>
               <span className="text-secondary">Neurologist</span>
             </div>
           </div>
@@ -64,7 +64,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. Addition Smith</h4>
+              <h4 className="title">Dr. Sam Smith</h4>
               <span className="text-secondary">Physiotherapist</span>
             </div>
           </div>
@@ -75,7 +75,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. Mahfuz Riad</h4>
+              <h4 className="title">Dr. Kola Bala</h4>
               <span className="text-secondary">ENT</span>
             </div>
           </div>
@@ -86,7 +86,7 @@ const OurTeam = () => {
           </div>
           <div className="team-info">
             <div className="team-info-comntent">
-              <h4 className="title">Dr. David Benjamin</h4>
+              <h4 className="title">Dr. Daniella Collins</h4>
               <span className="text-secondary">Operations</span>
             </div>
           </div>

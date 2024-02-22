@@ -8,11 +8,11 @@ import { clientLogin } from "src/lib/auth/client-login";
 import { useRouter } from "next/navigation";
 
 const LogInContainer = styled(Box)`
-  width: ${pxToRem(500)};
+  max-width: ${pxToRem(500)};
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.07);
-  padding: 5%;
+  padding: 5% 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +102,7 @@ const SignUp: FC = () => {
   };
 
   return (
-    <div className="login_page pt-[40px] bg-black flex items-center justify-center">
+    <div className="login_page py-20 bg-black flex items-center justify-center">
       <div className="flex flex-wrap items-center justify-center">
         <LogInContainer justifyContent="center" alignItems="center">
           <h2 className="text-[#565acf] inconsolata uppercase text-[32px] mb-10 font-bold">safehealth</h2>

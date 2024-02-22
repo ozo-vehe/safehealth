@@ -1,14 +1,13 @@
 import Image from "next/image";
-import about1 from "src/assets/pic-1.ad1ed7ee.jpg";
+import about1 from "src/assets/pic5.44c2a542.jpg";
 import about2 from "src/assets/pic-2.0593bc2f.jpg";
-import about3 from "src/assets/pic-3.fa689b10.jpg";
+import about3 from "src/assets/pic1.a3848a11.jpg";
 
 const AboutUs = () => {
   return (
     <section className="about_us my-32 px-12 lg:px-20 md:px-18 sm:px-16">
-      <div className="flex flex-wrap gap-16 items-center justify-center">
-        
-        <div className="flex flex-col max-w-[500px] max-h-[550px] lg:max-w-[500px] lg:max-h-[550px] md:max-w-[400px] md:max-h-[450px]">
+      <div className="flex flex-wrap gap-20 items-center justify-center">
+        <div className="flex flex-col max-w-[500px] max-h-[550px] lg:max-w-[450px] lg:max-h-[550px] md:max-w-[400px] md:max-h-[450px]">
           <div className="flex h-[47%] mb-8 items-end gap-8">
             <div className="h-fit rounded-r-[60px] rounded-bl-[60px] overflow-hidden">
               <Image src={about1} alt="img" />
@@ -20,11 +19,11 @@ const AboutUs = () => {
           </div>
 
           <div className="flex h-[48%] justify-center gap-8">
-            <div className="h-fit rounded-t-[60px] rounded-br-[60px] overflow-hidden">
+            <div className="h-fit w-[200px] rounded-t-[60px] rounded-br-[60px] overflow-hidden">
               <Image src={about3} alt="img" />
             </div>
             <div className="exp-bx">
-              10
+              7
               <span>Years of Experience</span>
             </div>
           </div>

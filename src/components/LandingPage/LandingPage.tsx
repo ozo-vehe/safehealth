@@ -6,7 +6,7 @@ import Image from "next/image";
 const LandingPage = () => {
   return (
     <>
-      <header className="banner bg-[#f1f6f7] px-12 lg:px-20 md:px-16 sm:px-12">
+      <header className="banner bg-[#f1f6f7] px-12 py-20 lg:px-20 md:px-16 sm:px-12">
         <div className="flex h-full w-full pb-[100px] items-center justify-center flex-wrap gap-20">
 
           <div className="w-full lg:w-[700px] md:w-[400px] sm:w-full">

@@ -77,12 +77,28 @@ export const Avatar = styled.div<any>`
   border-radius: ${pxToRem(50)};
 `;
 
-export const Email = styled.div<any>`
+// export const Email = styled.div<any>`
+//   color: #090c11;
+//   font-size: ${pxToRem(16)};
+//   font-family: "lato", sans-serif;
+//   font-weight: 700;
+//   color: ${(props) => (props.$isLocal ? `#090c11` : `#222831`)};
+// `;
+
+export const Email = styled.div<{ variant: "primary" | "secondary" }>`
   color: #090c11;
   font-size: ${pxToRem(16)};
   font-family: "lato", sans-serif;
   font-weight: 700;
-  color: ${(props) => (props.$isLocal ? `#090c11` : `#222831`)};
+
+  ${({ variant }) =>
+    variant === "primary"
+      ? `
+      color:#090c11;
+    `
+      : `
+      color: #f7f7f7;
+    `}
 `;
 
 export const Loading = styled.div<any>`

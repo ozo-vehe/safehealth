@@ -8,9 +8,12 @@ import GermanFlagIcon from "public/images/german-flag.svg";
 
 import * as S from "./WelcomeBanner.styled";
 import { useLocalContent } from "src/lib/hooks/use-local-content";
+import { useAuthentication } from "src/lib/hooks/use-authentication";
+
 
 const WelcomeBanner: FC = () => {
   const [isClosed, setIsClosed] = useState(false);
+  const { user } = useAuthentication();
 
   const { country } = useLocalContent();
 
@@ -33,7 +36,7 @@ const WelcomeBanner: FC = () => {
               height={32}
             />
           )}
-          <S.BannerTitle>Welcome to our {country} website</S.BannerTitle>
+          <S.BannerTitle>Welcome {user?.givenName} to our {country} website</S.BannerTitle>
         </Box>
 
         <S.CloseButton
